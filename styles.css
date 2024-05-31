@@ -4,9 +4,7 @@ html {
     padding: 1em;
     display: grid;
     place-items: center;
-    font:
-        1em "Helvetica",
-        sans-serif;
+    font-family: "Helvetica", sans-serif;
 }
 
 h1 {
@@ -26,9 +24,6 @@ img {
     width: 15px;
     display: inline-block;
 }
-/* .name, .name ~ td:nth-child(3), .name ~ td:nth-child(4) {
-  color: red;
-} */
 
 /*
 Responsive table CSS: https://css-tricks.com/responsive-data-tables/
@@ -53,7 +48,7 @@ tr:nth-of-type(odd) {
 }
 
 th {
-    background: #333;
+    background: #024c75;
     color: white;
     font-weight: bold;
 }
