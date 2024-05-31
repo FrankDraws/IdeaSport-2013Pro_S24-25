@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Idea 2013 Pro Roster</title>
+        <link rel="stylesheet" href="normalize.css" />
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+
+    <!--
+
+  FOUR CORNERS 2014 ROSTER
+
+-->
+    <body>
+        <div>
+            <h1>
+                <span style="color: #024c75">IdeaSport</span>
+                <span style="color: #ffce2d">2013 Pro</span> /
+                <span style="color: #ea3539">Roster</span>
+            </h1>
+            <h2><span style="color: #60c3ce">Season 2024-2025</span></h2>
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Player Name</th>
+                    <th>Player Number</th>
+                    <th>Parent(s) Name</th>
+                </tr>
+            </thead>
+
+            <!-- ROSTER  -->
+            <tbody id="main">
+                <tr>
+                    <td></td>
+                    <td class="name">
+                        Aiden Quinones <img src="captain.jpg" alt="" />
+                    </td>
+                    <td>16</td>
+                    <td>Frank Quinones &amp; Alisha Fredrickson</td>
+                </tr>
+
+                <tr>
+                    <td></td>
+                    <td class="name">
+                        Nolan Mcconnaghy <img src="captain.jpg" alt="" />
+                    </td>
+                    <td>21</td>
+                    <td>Mike &amp; Amy Mcconnaghy</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td class="name">Jorge Carillo III</td>
+                    <td>10</td>
+                    <td>Lucy Legnys, Jorge Carillo</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td class="name">Carmelo "Melo" Badillo</td>
+                    <td>7</td>
+                    <td>Christian &amp; Autumn Badillo</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td class="name">Andy Zambrana</td>
+                    <td>24</td>
+                    <td>Jose Luis &amp; Walesca Zambrana</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td class="name">Emilio Rodriguez</td>
+                    <td>12</td>
+                    <td>Xaviro &amp; Gaby Rodriguez</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td class="name">Liam Santos</td>
+                    <td>20</td>
+                    <td>Alicia Santos</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td class="name">Miguel Souza</td>
+                    <td>?</td>
+                    <td>Silvio &amp; Dannielle Souza</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td class="name">David Martinez</td>
+                    <td>1</td>
+                    <td>Imer Martinez &amp; Marines Nava</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Sofia Reyes</td>
+                    <td>8</td>
+                    <td>Mike &amp; Jamie Reyes</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Kevin Gonzalez</td>
+                    <td>11</td>
+                    <td>Kevis &amp; Maryori Gonzales</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Candido Andres Gomez Parra</td>
+                    <td>22</td>
+                    <td>Claudia Gomez</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Mathias Espinosa</td>
+                    <td>5</td>
+                    <td>Gaby Espinosa</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- COACHING STAFF  -->
+        <table class="info">
+            <thead>
+                <tr>
+                    <th>Coach</th>
+                    <th>Assistant Coach</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="staff">Coach Mauro</td>
+                    <td class="staff">Coach</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- UNIFORMS  -->
+        <table class="info">
+            <thead>
+                <tr>
+                    <th>Home Game Uniforms</th>
+                    <th>Away Game Uniforms</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="uniform">
+                        White shirt, red shorts, white socks
+                    </td>
+                    <td class="uniform">Red shirt, red shorts, Red socks</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <script>
+            // This code was written by Rix.chat from Hashnode
+            const table = document.getElementById("main");
+            const rows = table.rows;
+
+            for (let i = 0; i < rows.length; i++) {
+                rows[i].cells[0].textContent = i + 1;
+            }
+        </script>
+    </body>
+</html>
