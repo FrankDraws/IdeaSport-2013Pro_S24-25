@@ -2,12 +2,12 @@
 
 Welcome to the IdeaSport 2013 Pro boys team roster. This is a way for us to get to know our kids' names, numbers, and parent names.
 
-You can view the live site here: 
+You can view the live site here: https://frankdraws.github.io/IdeaSport-2013Pro_S24-25/
 
 # Code
-This is a typical data table (cloned from FC2013 roster). I used JavaScript to add sequential numbering in the first cell of each row in order to get the count of total players. 
+This is a typical data table (cloned from FC2013 roster). I used JavaScript to add sequential numbering in the first cell of each row in order to get the count of total players.
 
-The benefit of the sequential numbering code is that if a player is deleted or added, you don't have to manually update the numbers. If one player is added or removed, especially at the top of the table, you'd have to manually update the entire sequence. With the sequential numbering code, you can make any changes as needed and JavaScript will take care of the numbering. 
+The benefit of the sequential numbering code is that if a player is deleted or added, you don't have to manually update the numbers. If one player is added or removed, especially at the top of the table, you'd have to manually update the entire sequence. With the sequential numbering code, you can make any changes as needed and JavaScript will take care of the numbering.
 
 The following code was written by ChatGPT:
 ```javascript
@@ -47,26 +47,26 @@ This was the code I initially used and it worked. Then I received an email from 
     }
 ```
 
-In this version, I decided to go with an `ID` to target the table. 
+In this version, I decided to go with an `ID` to target the table.
 
-Although the Rix.chat version is shorter, I do like that ChatGPT uses comments to explain each line. It really helps me better understand. I decided to ask Rix.chat to comment the code it wrote, and it did. It output a concise and clean answer. 
+Although the Rix.chat version is shorter, I do like that ChatGPT uses comments to explain each line. It really helps me better understand. I decided to ask Rix.chat to comment the code it wrote, and it did. It output a concise and clean answer.
 
-Here's the commented version from Rix.chat: 
+Here's the commented version from Rix.chat:
 
 ```javascript
-  // Get the table element 
+  // Get the table element
   const table = document.getElementById("myTable");
 
   // Get all the rows in the table
   const rows = table.rows;
 
-  // Loop through each row  
+  // Loop through each row
   for (let i = 0; i < rows.length; i++) {
 
-    // Get the first cell (column 0) of the current row  
+    // Get the first cell (column 0) of the current row
     const firstCell = rows[i].cells[0];
 
-    // Set the text content of the first cell to the row number  
+    // Set the text content of the first cell to the row number
     firstCell.textContent = i + 1;
 
   }
